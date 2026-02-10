@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #12ccf1, #694bb0);
+}
+
+header{
+    display:flex;
+    align-items:center;
+    padding:15px 25px;
+    background:#8769d2;
+    position:relative;
+}
+.home{
+    text-align: center;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:rgb(23, 232, 89);
+    margin-right:15px;
+    font-weight:600;
+}
+
+.page-title{
+    margin-left: auto;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+section{
+    padding:40px;
+}
+
+/* buttons */
+
+.btn{
+    padding:10px 18px;
+    border:none;
+    background:rgb(231, 226, 226);
+    color:rgb(36, 23, 23);
+    cursor:pointer;
+    border-radius:4px;
+    
+}
+
+/* simple project cards */
+
+.card{
+    border:1px solid #11c5b9;
+    padding:15px;
+    margin:10px 0;
+    border-radius:6px;
+    background:rgb(73, 101, 201);
+}
