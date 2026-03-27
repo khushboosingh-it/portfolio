@@ -1,11 +1,11 @@
- # 🌐 Personal Portfolio Website
+ #  Personal Portfolio Website
 
-## 📌 Overview
+##  Overview
 
 This is my personal portfolio website built to showcase my skills, projects, and progress as an IT student and aspiring developer.
 The goal of this portfolio is to present my work in a clean, professional, and user-friendly way.
 
-## 🚀 Features
+##  Features
 
 * Responsive design (works on mobile, tablet, and desktop)
 * Clean and modern UI
@@ -13,20 +13,20 @@ The goal of this portfolio is to present my work in a clean, professional, and u
 * About me section
 * Contact section for easy communication
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript
 
-## 📂 Sections Included
+##  Sections Included
 
 * **Home** – Introduction and quick overview
 * **About Me** – My background, skills, and interests
 * **Projects** – List of my work with descriptions
 * **Contact** – Ways to reach me
 
-## 💡 Purpose of the Project
+##  Purpose of the Project
 
 This project helped me:
 
@@ -46,7 +46,7 @@ This project helped me:
 * Improve UI/UX design
 * Add more real-world projects
 
-## 🙋‍♂️ About Me
+##  About Me
 
 I am an IT student passionate about web development and continuously learning new technologies. I enjoy building projects and improving my problem-solving skills.
 
