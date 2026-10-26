@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-     <link rel="stylesheet" href="style.css">
+    <title>About</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="main" href="index.html">
+     <link rel="projects" href="projects.html">
+    <style>
+   main{
+    margin: 20px ;
+    margin-top: 30px;
+    padding: 50px;
+    border: 1px solid black;
+    font-family: sarif;
+   }
+   div{
+    margin-top: 5px;
+    width: 800px;
+    border: 1px dotted blue;
+    padding: 10px;
+   }
+   div:hover{
+    background-color: white;
+   }
+   
+    </style>
 </head>
 <body>
      <header>
         <nav>
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="project.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="projects.html">PROJECTS</a>
         </nav>
 
-        <div class="page-title">About</div>
+       <div class="page-title">About</div>
     </header>
-    <ul>
-        <li h2 class="home">NAME:</h2>
-            <h3 class="1">Khushboo Singh</h3>
-            <hr>
-        <li h2 class="role">Role</h2>
-            <h3 class="2">IT student | data anayltics | web development</h3>
-            <hr>
-        <li h2 class="intro">short intro</h2>
-            <h3 class="3">I am an IT student learning web development and Python, and I am building strong
-                foundations for a future career in Data Science and AI.</h3>
-            <hr>
-        <li h2 class="skills">Certificates and learning skills</h2>
-         <h3 class="4"> <li> Deloitte Virtual Internship – Data Analytics </li>
-        <li> Currently learning HTML, CSS, JavaScript & Python advanced</li></h3> <hr>  
+    <main class="details">
+        <div>
+            <h2>Name: Khushboo Singh</h2><br>
+        </div>
+        <div>
+            <h2>Role: </h2> 
+            <p>IT student | data Anayltics | web development</p><br>
+        </div>
+        <div>
+         <h2>Short Intro:</h2>
+            <p>I am an IT student learning web development and Python, and I am building strong
+            foundations for a future career in Software Enginner Integrated with AI.</h3><br>
+        </div>
+        <div>
+        <h2>Skills:</h2>
+         <p> 
+            <ol>
+                <li>
+                    HTML, CSS, JavaScript
+                </li><br>
+                <li>
+                    SQL, PANDAS , MATPLOTLIB , POWER-BI ,PYTHON
+                </li>
+            </ol>  
+         </p>
+        </div>
+        <div>
+        <h2>Projects:</h2>
 
-        <li h2 class="5">projects buttons given below</li>
-
-        <li><button onclick="projects"> § github.com/khushboosingh-it</button> <hr>
-
-        <li h2 class="6">internships</li>
+        <a href="https://github.com/khushboosingh-it/portfolio" target="_blank">
+            <button class="btn">My Github</button> 
+         </a><br>
+        </div>
+        <div>
+        <h2>Internships: </h2>
         <h3 class="7">Open to internships & learning opportunities</h3>
+        </div>
+        </main>
 
 
 
