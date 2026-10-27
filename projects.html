@@ -1,130 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>project</title>
-    <!-- project 1 -->
+<head>
+    <title>Projects</title>
     <style>
-.content{
-    padding: 2px;
-    width: 400px;
-   text-align: center;
-   color: black;
-   font-weight: bold;
-   font-style: italic;
-   background-color: #cbf078;
-   border-radius: 45px;
-}
-.content:hover{
-    border-radius: 45px;
-    border: 2px solid white;
-}
-.size{
-    font-size: 16px; 
-    font-weight: normal;
-    margin: 50px auto;
-}
-
-.title {
-	color: #5C6AC4;
-}
-.img-card{
-   height: 80px;
-   border-radius: 100%;
-   border: 5px solid pink;
-}
-     </style>
-     <!-- project 2 -->
-      <style>
-  body{
-  margin: 20px;
-  font-style: italic;
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-}
-.container{
-    border: 1px dotted blue;
-}
-.card-container{
-    width: 320px;
-    padding: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border: 5px solid goldenrod;
-    background-color: rgb(0, 0, 0);
-    transition: transform 0.3 ease;
-}
-.card-container:hover{
-  transform: translate(3px);
-}
-.card-img{
-  width: 100%;
-  border-radius: 5px;
-}
-h1{
-  margin-top: 0px;
-}
-.font{
-  margin: -20px;
-}
-button{
-  margin-left: 200px;
-  padding: 15px;
-  font-weight: bold;
-  color: rgb(31, 28, 28);
-  border-radius: 10px;
-  background-color: rgb(233, 233, 151);
-  transition: transform 0.3 ease;
-}
-button:hover{
-  transform: translate(1px);
-  border-color: yellowgreen;
-}
+        body {
+            margin: 20px;
+            font-style: italic;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .content {
+            padding: 2px;
+            width: 400px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            background-color: #cbf078;
+            border-radius: 45px;
+            margin: 50px auto;
+        }
+        .content:hover {
+            border-radius: 45px;
+            border: 2px solid white;
+        }
+        .img-card {
+            height: 80px;
+            border-radius: 100%;
+            border: 5px solid pink;
+        }
+        .card-container {
+            width: 320px;
+            padding: 25px;
+            margin: 40px auto;
+            border-radius: 25px;
+            border: 5px solid goldenrod;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            transition: transform 0.3s ease;
+        }
+        .card-container:hover {
+            transform: translateY(3px);
+        }
+        .card-img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        button {
+            margin-left: 200px;
+            padding: 10px 15px;
+            font-weight: bold;
+            color: rgb(31, 28, 28);
+            border-radius: 10px;
+            background-color: rgb(233, 233, 151);
+            cursor: pointer;
+        }
+        button:hover {
+            border-color: yellowgreen;
+            background-color: lightblue;
+        }
     </style>
-  </head>
-  <!-- project 1 content -->
-  <body>
-   <!-- navigation bar -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
     <header>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
         </nav>
-
-        <div class="page-title">Projects</div>
+        <div class="page-title"><h1>Projects</h1></div>
     </header>
-                   <!-- content -->
-     <h3 style="margin: 10px;">1.Birthday's card</h3>
-    <main class="content size">
-          <h4>Today is Khushboo's Birthday</h4>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmiriEgBaoLiH-L7aUWsb5HjUHK-p3Bckpe9xFSQ8Zcg&s=10"
-   class="img-card">
-   <h2>19 years old</h2>
-   <p>07.02.2008</p>
-   </div>
-    </main>
-</body>
-  <!-- project 2 content -->
-  <body>
-      <div 
-      class="card-container">
-      <img src ="https://ovenberries.in/images/cappuccino.png"
-      class="card-img">
 
-      <div class="content-box">
-      <p>
-          SPECIALITY COFFEE
-      </p>
-      </div>
-      <div class="border">
-      <h1>Classic Cappuccino</h1>
-      <p>Rich espresso blended with creamy<br> steamed milk and a smooth
-      foam finish.</p><br>
-      <h1>$3.5<button>Order Now</button></h1>
-      </div>
-   </div>
-  </body>
-</html>
-  </body>
+    <!-- Project 1 Content -->
+    <h3 style="margin: 10px;">1. Birthday's Card</h3>
+    <div class="content">
+        <h4>Today is Khushboo's Birthday</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmiriEgBaoLiH-L7aUWsb5HjUHK-p3Bckpe9xFSQ8Zcg&s=10" class="img-card" alt="Birthday Image">
+        <h2>19 years old</h2>
+        <p>07.02.2008</p>
+    </div>
+
+    <!-- Project 2 Content -->
+    <h3 style="margin: 10px;">2. Specialty Coffee Card</h3>
+    <div class="card-container">
+        <img src="https://ovenberries.in/images/cappuccino.png" class="card-img" alt="Cappuccino">
+        <div class="content-box">
+            <p>SPECIALITY COFFEE</p>
+        </div>
+        <div class="border">
+            <h1>Classic Cappuccino</h1>
+            <p>Rich espresso blended with creamy<br>steamed milk and a smooth foam finish.</p><br>
+            <h1>$3.5 <button>Order Now</button></h1>
+        </div>
+    </div>
+
+</body>
 </html>
