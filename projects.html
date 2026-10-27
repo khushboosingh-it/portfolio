@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>About</title>
-     <link rel="stylesheet" href="styles.css">
-     <link rel="main" href="index.html">
-     <link rel="details" href="about.html">
-     <link rel="projects" href="projects.html">
-     <style>
+<html>
+  <head>
+    <title>project</title>
+    <!-- project 1 -->
+    <style>
 .content{
     padding: 2px;
     width: 400px;
@@ -30,15 +27,64 @@
 .title {
 	color: #5C6AC4;
 }
-img{
+.img-card{
    height: 80px;
    border-radius: 100%;
    border: 5px solid pink;
 }
      </style>
-</head>
-<body>
-                <!-- navigation bar -->
+     <!-- project 2 -->
+      <style>
+  body{
+  margin: 20px;
+  font-style: italic;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.container{
+    border: 1px dotted blue;
+}
+.card-container{
+    width: 320px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 5px solid goldenrod;
+    background-color: rgb(0, 0, 0);
+    transition: transform 0.3 ease;
+}
+.card-container:hover{
+  transform: translate(3px);
+}
+.card-img{
+  width: 100%;
+  border-radius: 5px;
+}
+h1{
+  margin-top: 0px;
+}
+.font{
+  margin: -20px;
+}
+button{
+  margin-left: 200px;
+  padding: 15px;
+  font-weight: bold;
+  color: rgb(31, 28, 28);
+  border-radius: 10px;
+  background-color: rgb(233, 233, 151);
+  transition: transform 0.3 ease;
+}
+button:hover{
+  transform: translate(1px);
+  border-color: yellowgreen;
+}
+    </style>
+  </head>
+  <!-- project 1 content -->
+  <body>
+   <!-- navigation bar -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -52,10 +98,33 @@ img{
      <h3 style="margin: 10px;">1.Birthday's card</h3>
     <main class="content size">
           <h4>Today is Khushboo's Birthday</h4>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmiriEgBaoLiH-L7aUWsb5HjUHK-p3Bckpe9xFSQ8Zcg&s=10">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmiriEgBaoLiH-L7aUWsb5HjUHK-p3Bckpe9xFSQ8Zcg&s=10"
+   class="img-card">
    <h2>19 years old</h2>
    <p>07.02.2008</p>
    </div>
     </main>
 </body>
+  <!-- project 2 content -->
+  <body>
+      <div 
+      class="card-container">
+      <img src ="https://ovenberries.in/images/cappuccino.png"
+      class="card-img">
+
+      <div class="content-box">
+      <p>
+          SPECIALITY COFFEE
+      </p>
+      </div>
+      <div class="border">
+      <h1>Classic Cappuccino</h1>
+      <p>Rich espresso blended with creamy<br> steamed milk and a smooth
+      foam finish.</p><br>
+      <h1>$3.5<button>Order Now</button></h1>
+      </div>
+   </div>
+  </body>
+</html>
+  </body>
 </html>
